@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "create-single-spa": "^3.0.0"
+  }
+}
