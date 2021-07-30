@@ -12,7 +12,7 @@ import Navbar from './shared/components/Navbar';
 
 const Router: React.FC = () => {
   return (
-    <BrowserRouter basename="react-app-2">
+    <BrowserRouter basename="router">
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />

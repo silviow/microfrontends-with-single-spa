@@ -4,7 +4,7 @@ const singleSpaDefaults = require("webpack-config-single-spa-react-ts");
 module.exports = (webpackConfigEnv, argv) => {
   const defaultConfig = singleSpaDefaults({
     orgName: "silvio",
-    projectName: "react-app-1",
+    projectName: "router",
     webpackConfigEnv,
     argv,
   });

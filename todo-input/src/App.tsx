@@ -13,7 +13,7 @@ const App = ({ name }) => {
 
   const handleSubmit = (event: any) => {
     event.preventDefault();
-    emitEvent('@silvio/react-app-4/todo/add-task', {
+    emitEvent('@silvio/todo-input/todo/add-task', {
       id: uuid(),
       description: task,
     });
@@ -28,7 +28,7 @@ const App = ({ name }) => {
         <button>Add</button>
       </form>
       <Parcel
-        config={() => System.import('@silvio/react-app-3')}
+        config={() => System.import('@silvio/todo-list')}
       />
     </>
   )

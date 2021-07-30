@@ -1,5 +1,5 @@
 {
-  "name": "@silvio/react-app-1",
+  "name": "@silvio/counter",
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",

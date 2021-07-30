@@ -1,5 +1,5 @@
 {
-  "name": "@silvio/react-app-4",
+  "name": "@silvio/todo-input",
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",

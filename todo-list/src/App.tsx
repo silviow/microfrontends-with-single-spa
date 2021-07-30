@@ -10,7 +10,7 @@ const App: React.FC<IAppProps> = ({ name }: IAppProps) => {
   const [tasks, updateTasks] = useState([]);
 
   useEffect(() => {
-    listenEvent('@silvio/react-app-4/todo/add-task', (event: any) => {
+    listenEvent('@silvio/todo-input/todo/add-task', (event: any) => {
       updateTasks(oldTasks => [
         ...oldTasks,
         event.detail,
@@ -20,7 +20,7 @@ const App: React.FC<IAppProps> = ({ name }: IAppProps) => {
 
   return (
     <>
-      <h1>@silvio/react-app-3</h1>
+      <h1>@silvio/todo-list</h1>
       <table>
         <thead>
           <tr>

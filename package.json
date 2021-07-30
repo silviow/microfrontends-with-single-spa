@@ -1,5 +1,13 @@
 {
   "dependencies": {
     "create-single-spa": "^3.0.0"
+  },
+  "scripts": {
+    "start:container": "cd container && yarn run webpack serve --port 9000 --env isLocal",
+    "start:counter": "cd counter && yarn run webpack serve --port 8500",
+    "start:router": "cd router && yarn run webpack serve --port 8501",
+    "start:utils": "cd utils && yarn run webpack serve --port 8504",
+    "start:todo-list": "cd todo-list && yarn run webpack serve --port 8502",
+    "start:todo-input": "cd todo-input && yarn run webpack serve --port 8503"
   }
 }

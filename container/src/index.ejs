@@ -47,11 +47,11 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "@silvio/root-config": "//localhost:9000/silvio-root-config.js",
-        "@silvio/react-app-1": "//localhost:8500/silvio-react-app-1.js",
-        "@silvio/react-app-2": "//localhost:8501/silvio-react-app-2.js",
-        "@silvio/react-app-3": "//localhost:8502/silvio-react-app-3.js",
-        "@silvio/react-app-4": "//localhost:8503/silvio-react-app-4.js",
+        "@silvio/container": "//localhost:9000/silvio-container.js",
+        "@silvio/counter": "//localhost:8500/silvio-counter.js",
+        "@silvio/router": "//localhost:8501/silvio-router.js",
+        "@silvio/todo-list": "//localhost:8502/silvio-todo-list.js",
+        "@silvio/todo-input": "//localhost:8503/silvio-todo-input.js",
         "@silvio/utils": "//localhost:8504/silvio-utils.js"
       }
     }
@@ -79,7 +79,7 @@
   </noscript>
   <main></main>
   <script>
-    System.import('@silvio/root-config');
+    System.import('@silvio/container');
   </script>
   <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
 </body>
